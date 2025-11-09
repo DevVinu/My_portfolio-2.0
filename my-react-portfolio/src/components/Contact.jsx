@@ -4,7 +4,7 @@ export default function Contact() {
 	return (
 		<section id="contact" className="contact container" style={{padding:'2rem 0'}}>
 			<h2>Contact</h2>
-			<p>Prefer email? <a href="mailto:you@example.com">you@example.com</a></p>
+			<p>Prefer email? <a href="mailto:you@example.com">Devvinudana@gmail.com</a></p>
 			<form onSubmit={(e) => { e.preventDefault(); alert('Replace with Email service or handler'); }} style={{maxWidth:600}}>
 				<div style={{display:'flex',gap:8,marginBottom:8}}>
 					<input name="name" placeholder="Name" required style={{flex:1}} />
